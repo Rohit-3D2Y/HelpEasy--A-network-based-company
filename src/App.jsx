@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./components/Navbar";
+import Landing from "./components/Landing";
 
 const App = () => {
   return (
-    <div className='w-screen h-screen bg-red-500'>
-      <h1 className='bg-blue-500'>HEllo world</h1>
+    <div className="w-full h-screen ">
+      <Navbar />
+      <Landing />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
