@@ -1,9 +1,12 @@
+// Import necessary dependencies
 import React, { useState } from 'react';
 import { FaSearch, FaShoppingCart, FaUser, FaBars, FaTimes } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const navigate = useNavigate(); // Initialize useNavigate
 
   const navItems = [
     { href: "#Products", label: "Products" },
@@ -14,7 +17,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="bg-[#BBE2EC] shadow-md">
+    <div className="bg-[#8c90ea] shadow-md">
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -23,7 +26,7 @@ const Header = () => {
               <ul className="flex space-x-8 ml-40">
                 {navItems.map((item) => (
                   <li key={item.href}>
-                    <a href={item.href} className="text-gray-600 hover:text-black font-semibold">
+                    <a href={item.href} className="text-white hover:text-black font-semibold">
                       {item.label}
                     </a>
                   </li>
@@ -33,6 +36,12 @@ const Header = () => {
           </div>
           
           <div className="hidden md:flex items-center space-x-4">
+            <button
+              onClick={() => navigate('/register-cleaner')} // Update to navigate to Partner Program
+              className="border border-gray-300 text-white px-4 py-2 rounded"
+            >
+              REGISTER AS A CLEANER
+            </button>
             <div className="relative">
               <FaSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
               <input
