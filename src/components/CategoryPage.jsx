@@ -51,7 +51,7 @@ const allServiceProviders = {
       service: "House Cleaning",
       location: "SJCEM",
       hourlyRate: '2500',
-      image: "https://t3.ftcdn.net/jpg/01/36/23/84/360_F_136238494_m6KM5sGWvyDxtImgi3kitAH5gxLxLAIy.jpg"
+      image: "https://img.freepik.com/free-vector/set-surface-cleaning-products_23-2148534090.jpg"
     },
     {
       id: 2,
@@ -61,6 +61,38 @@ const allServiceProviders = {
       hourlyRate: '2000',
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdOCkNbHIcu-5VoPzSdKeXRzECMN0_32vUDg&s"
     },
+    {
+      id: 7,
+      name: "Smit Patil",
+      service: "Mopping",
+      location: "SJCEM",
+      hourlyRate: '500',
+      image: "https://www.shutterstock.com/image-photo/house-cleaning-fun-young-adorable-600nw-2424341435.jpg"
+    },
+    {
+      id: 8,
+      name: "Durvesh Vinherkar",
+      service: "Brooming",
+      location: "SJCEM",
+      hourlyRate: '500',
+      image: "https://thumbs.dreamstime.com/b/close-up-male-brooming-wooden-floor-cleaning-home-concept-39786001.jpg"
+    },
+    {
+      id: 9,
+      name: "Ankit Dubey",
+      service: "Washroom Cleaning",
+      location: "SJCEM",
+      hourlyRate: '500',
+      image: "https://eu-images.contentstack.com/v3/assets/blt9ca8222b5acaa556/blt6cc2bba866b78356/6539fb431e99383321db122c/how-to-give-yourtoilet-a-daily-clean.jpeg?width=954&height=636&format=jpg&quality=80"
+    },
+    {
+      id: 10,
+      name: "Hitanshu Vaidya",
+      service: "Bathroom Cleaning",
+      location: "SJCEM",
+      hourlyRate: '500',
+      image: "https://www.kerovit.com/blog/wp-content/uploads/2019/11/Tips-for-cleaning-your-bathroom.jpg"
+    },
   ],
   painting: [
     {
@@ -69,7 +101,7 @@ const allServiceProviders = {
       service: "Interior Painting",
       location: "123 Happy Trees Ave, FL",
       hourlyRate: '3000',
-      image: "/api/placeholder/300/300"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQStN84jV9tk0cQ1pa09PJbcjbekOob1hgGsA&s"
     },
     {
       id: 4,
@@ -77,8 +109,30 @@ const allServiceProviders = {
       service: "Exterior Painting",
       location: "456 Rainbow Road, CA",
       hourlyRate: '3500',
-      image: "/api/placeholder/300/300"
-    }
+      image: "https://5.imimg.com/data5/RA/CW/JK/SELLER-79335428/all-painting-work.jpg"
+    },
+    {
+      id: 11,
+      name: "Rohit Tiwari",
+      service: "Lawn Painting",
+      location: "SJCEM",
+      hourlyRate: '500',
+      image: "https://5.imimg.com/data5/GC/IW/MY-967525/painting-job-500x500.jpg"
+    },{
+      id: 12,
+      name: "Aaditya Singh",
+      service: "House Painting & Rennovation",
+      location: "SJCEM",
+      hourlyRate: '500',
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsWDYha8r6ZLePzLr6xTWu1_ca3ykr63_84n4YUtRJTuI4DLGSsc_9gktPkZxO3T0hAHU&usqp=CAU"
+    },{
+      id: 13,
+      name: "Smit Patil",
+      service: "House Painting",
+      location: "SJCEM",
+      hourlyRate: '500',
+      image: "https://5.imimg.com/data5/SELLER/Default/2022/10/AS/NE/HD/123572238/office-painting-work-500x500.jpg"
+    },
   ],
   repair: [
     {
@@ -87,8 +141,30 @@ const allServiceProviders = {
       service: "General Repairs",
       location: "789 Handyman Lane, TX",
       hourlyRate: '1500',
-      image: "/api/placeholder/300/300"
-    }
+      image: "https://images.stockcake.com/public/c/8/3/c83d05ac-909a-42e9-810a-5c5f71e5f845_large/road-repair-work-stockcake.jpg"
+    },
+    {
+      id: 14,
+      name: "Rohit Tiwari",
+      service: "Plumbing Repairs",
+      location: "SJCEM",
+      hourlyRate: '500',
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5VRvO_yDXFHsyABpANnZ-5eorCq8P9sxR-w&s"
+    },{
+      id: 15,
+      name: "Aaditya Singh",
+      service: "Hardware Repairs",
+      location: "SJCEM",
+      hourlyRate: '500',
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCLSyRgb-d-pgZUpysm4IRuSQSB8fbhjBqHw&s"
+    },{
+      id: 16,
+      name: "Smit patil",
+      service: "House Repairs",
+      location: "SJCEM",
+      hourlyRate: '500',
+      image: "https://thumbs.dreamstime.com/z/auto-mechanic-repair-work-engine-24385992.jpg"
+    },
   ],
 };
 
